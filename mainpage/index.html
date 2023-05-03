@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="indexcss.css">
+
+</head>
+
+<body>
+    <div class="header" id="myHeader">
+        <div class="logoSpace">
+            <img src="logorecortadoverde.png" class="logo" style="width: 100px; height: 100px;">
+            <div class="Moka"><b>MOKA COFFEE</b></div>
+        </div>
+        <div class="movingText">
+            <marquee>Prueba nuestros nuevos cafes con un descuento hasta el próximo miércoles</marquee>
+        </div>
+        <div class="headerRightPart">
+            <div class="lupa">
+                <img src="lupab.png" style="width: 50px; height:50px">
+            </div>
+            <div class="loginSpace">
+                <button class="loginButton">Log-in</button>
+                <div class="registerButton">Register</div>
+            </div>
+        </div>
+        <script>
+            window.onscroll = function () { myFunction() };
+            var header = document.getElementById("myHeader");
+            var sticky = header.offsetTop;
+            function myFunction() {
+                if (window.pageYOffset > sticky) {
+                    header.classList.add("sticky");
+                } else {
+                    header.classList.remove("sticky");
+                }
+            }
+        </script>
+    </div>
+    <div class="body">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="textimagenbody1">
+                    <div class="textimagenbody1div">Refrescate con el <br>nuevo<br></div>
+                    <div class="text2imagenbody1div">Granizado de <br>Cafe<br></div>
+                    <button class="buttonimagenbody1">Descubre más</button>
+                </div>
+                <img src="imgbody1b.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="textimagenbody2">
+                    <div class="textimagenbody2div">Llega el verano y con ello nuestro <br>nuevo<br></div>
+                    <div class="text2imagenbody2div">Ice Coffe</div>
+                    <button class="buttonimagenbody2">Descubre más</button>
+                </div>
+                <img src="imgbody2e.png" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <div class="textimagenbody3">
+                    <div class="textimagenbody3div">Descubre nuestros</div>
+                    <div class="text2imagenbody3div">Batidos naturales</div>
+                    <button class="buttonimagenbody3">Descubre más</button>
+                </div>
+                <img src="imgbody3.png" style="width:100%">
+            </div>
+        </div>
+        <div class="bodymiddlepart">
+            <div class="leftside">
+                <img src="imgcaf.PNG">
+                <div class="leftsidetext">
+                    <div class="leftsidemaintext">Cafés! </div>
+                    <div class="leftsidebodytext">Solo,cortado o con leche, aquí<br>encontrarás cafés para todos los gustos, <br>además de una grán variedad de cafés<br> innovadores....
+                    </div>
+                    <div class="leftbar">|</div>
+                </div>
+            </div>
+            <div class="rightside">
+                <div class="rightsidetext">
+                    <div class="rightbar">|</div>
+                    <div class="rightsidemaintext">¡Desayunos! </div>
+                    <div class="rightsidebodytext">¿Eres más de dulce o salado para desayunar?
+                        <br>Aqui te traemos los mejores desayunos para
+                        <br>todos los gustos...
+                    </div>
+                </div>
+                <img class="imgbodyrightside" src="imgdesf2.PNG">
+            </div>
+            </divZ>
+            <script>
+                let slideIndex = 0;
+                showSlides();
+
+                function showSlides() {
+                    let i;
+                    let slides = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) { slideIndex = 1 }
+                    slides[slideIndex - 1].style.display = "block";
+                    setTimeout(showSlides, 10000);
+                }
+            </script>
+
+        </div>
+        <div class="footer"></div>
+</body>
+
+</html>
