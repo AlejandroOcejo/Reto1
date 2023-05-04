@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pagina3.css">
+
+</head>
+
+<body>
+    <div class="header" id="myHeader">
+        <div class="logoSpace">
+            <img src="logorecortadoverde.png" class="logo" style="width: 100px; height: 100px;">
+            <div class="Moka"><b class="tittle">MOKA COFFEE</b></div>
+        </div>
+        <div class="movingText">
+            <marquee>Prueba nuestros nuevos cafes con un descuento hasta el próximo miércoles</marquee>
+        </div>
+        <div class="headerRightPart">
+            <div class="lupa">
+                <img src="lupab.png" style="width: 50px; height:50px">
+            </div>
+            <div class="loginSpace">
+                <button class="loginButton">Log-in</button>
+                <div class="registerButton">Register</div>
+            </div>
+        </div>
+        <script>
+            window.onscroll = function () { myFunction() };
+            var header = document.getElementById("myHeader");
+            var sticky = header.offsetTop;
+            function myFunction() {
+                if (window.pageYOffset > sticky) {
+                    header.classList.add("sticky");
+                } else {
+                    header.classList.remove("sticky");
+                }
+            }
+        </script>
+    </div>
+    <div class="body">
+        <div class="footer">
+            <div class="firstpartfooter">
+                <div class="footerlogo"><img class="footerlogo" src="logorecortadoverde.png" alt=""></div>
+                <div class="footersocial">
+                    <img src="instagram.png" alt="" style="width: 50px; height:50px;">
+                    <img src="signo-de-twitter.png" alt="" style="width: 50px; height:50px;">
+                    <img src="facebook.png" alt="" style="width: 50px; height:50px;">
+                    <img src="youtube.png" alt="" style="width: 50px; height:50px;">
+                </div>
+            </div>
+            <div class="secondpartfooter">
+                <div class="aboutus"><a>Sobre nosotros</a><br> <b>¿Quienes Somos?<br>Responsabilidad<br>Contacto</b>
+                </div>
+            </div>
+            <div class="secondpartfooter">
+                <div class="aboutus"><a>La compañía</a><br> <b>Trabaja con nosotros<br>Ubicación del local<br>Politica de cookies | Aviso legal</b>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
