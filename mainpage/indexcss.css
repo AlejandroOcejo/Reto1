@@ -304,6 +304,7 @@ main {
     flex-direction: column;
     align-items: center;
     transition: transform .2s;
+    flex-basis: 50%;
 }
 
 .reservetext {
@@ -316,6 +317,7 @@ main {
     flex-direction: column;
     align-items: center;
     transition: transform .2s;
+    flex-basis: 50%;
 }
 
 .deliverytext {
@@ -323,11 +325,79 @@ main {
     font-size: 500%;
 }
 
-.reserveoption:hover {
-    transform: scale(2, 1);
-
+.delreserveoption:hover .reserveoption:hover {
+    transform: translateX(45%);
 }
 
-.deliveryoption:hover {
-    transform: translateX(-100%);
+.delreserveoption:hover .deliveryoption:hover {
+    transform: translateX(-55%);
+}
+
+.delreserveoption:hover .reserveoption:not(:hover) {
+    transform: scale(0);
+}
+
+.delreserveoption:hover .deliveryoption:not(:hover) {
+    transform: scale(0);
+}
+
+.delreserveoption:hover .reserveoption,
+.delreserveoption:hover .deliveryoption {
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer {
+    background-color: #232325;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.firstpartfooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.footersocial {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+a {
+    color: #09953e;
+    font-size: 250%;
+}
+
+.b {
+    color: rgb(134, 134, 134);
+}
+
+.lowerfooter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerlogo {
+    width: 75px;
+    height: 75px;
+}
+
+.aboutus {
+    display: flex;
+    flex-direction: column;
+}
+b{
+    color: rgb(161, 161, 161);
+}
+
+.tittle{
+    color: white;
 }
