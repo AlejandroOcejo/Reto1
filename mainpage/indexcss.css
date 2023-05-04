@@ -8,6 +8,9 @@ main {
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: black;
+}
 
 
 .header {
@@ -352,7 +355,8 @@ main {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 45px;
+    margin-top: 50px;
 }
 
 .firstpartfooter {
@@ -394,10 +398,13 @@ a {
     display: flex;
     flex-direction: column;
 }
-b{
+
+b {
     color: rgb(161, 161, 161);
 }
 
-.tittle{
+.tittle {
     color: white;
 }
+
+
