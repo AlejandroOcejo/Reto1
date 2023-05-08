@@ -198,6 +198,7 @@ div.productrow a:hover {
 .imgrow1 {
     width: 325px;
     height: 300px;
+    border-radius: 5px 5px 0px 0px;
 }
 
 .rowtitle1 {
@@ -220,6 +221,7 @@ div.productrow a:hover {
     border-radius: 5px;
     margin: 0 auto;
     align-items: center;
+    padding: 20px;
 }
 
 
@@ -261,10 +263,20 @@ div.productrow a:hover {
     align-items: center;
     display: flex;
     flex-direction: row;
-    justify-content:center;
-    padding: 20px;
+    justify-content: center;
 }
 
 .divisor {
     font-size: 800%;
+}
+
+.addbutton {
+    width: 325px;
+    height: 50px;
+    align-items: center;
+    background-color: #09953e;
+    border: 1px black solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
