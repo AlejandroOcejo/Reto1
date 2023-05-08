@@ -85,6 +85,7 @@ main {
 * {
     box-sizing: border-box
 }
+
 .footer {
     background-color: #232325;
     display: flex;
@@ -133,10 +134,102 @@ a {
     display: flex;
     flex-direction: column;
 }
-b{
+
+b {
     color: rgb(161, 161, 161);
 }
 
-.tittle{
+.tittle {
     color: white;
+}
+
+.bodyfirstpart {
+    width: 100%;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftbody {
+    width: 40%;
+}
+
+.leftimage {
+    width: 100%;
+}
+
+.rightbody {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.deliveryimages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.textrightbody {
+    margin-top: 20px;
+    padding: 87px;
+    font-size: 210%;
+    line-height: 150%;
+}
+
+.titlerightbody {
+    color: #09953e;
+    font-size: 150%;
+}
+
+.deliverysbuttons {
+    width: 420px;
+    height: 105px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    padding: 10px;
+    box-shadow: 0px 5px 5px #888;
+    color:black;
+}
+
+.deliveryuber {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.deliveryglovo {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.glovoimage {
+    width: 420px;
+    height: 270px;
+    box-shadow: 0px 5px 5px #888;
+}
+.uberimage {
+    width: 420px;
+    height: 270px;
+    box-shadow: 0px 5px 5px #888;
+}
+.buttondeliver {
+    height: 25px;
+    width: 100px;
+    border-color: #09953e;
+    color: #09953e;
+}
+.titlebuttons {
+    color:black;
+    font-size: 120%;
 }
