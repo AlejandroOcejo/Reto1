@@ -93,6 +93,7 @@ main {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    margin-top: -4px;
 }
 
 .firstpartfooter {
@@ -152,6 +153,7 @@ b {
 
 .leftbody {
     width: 40%;
+    height: 95%;
 }
 
 .leftimage {
