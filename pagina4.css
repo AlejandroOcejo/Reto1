@@ -1,0 +1,428 @@
+@import url('https://fonts.cdnfonts.com/css/gill-sans-nova-cond-ultra-bold');
+
+html,
+body,
+main {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #232325;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.logoSpace {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.headerRightPart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 40px;
+    gap: 20px;
+}
+
+.loginSpace {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.loginButton {
+    border-radius: 10px;
+    background-color: #09953e;
+    width: 100px;
+    height: 35px;
+    font-size: x-large;
+    color: white;
+    border: 10px black;
+
+}
+
+.registerButton {
+    color: white;
+    font-size: 120%;
+}
+
+.Moka {
+    font-family: 'Gill Sans Nova Cond Ultra Bold';
+    font-size: 250%;
+    color: white;
+    font-weight: 900;
+
+}
+
+.movingText {
+    color: white;
+    font-family: 'Gill Sans Nova Cond Ultra Bold';
+    font-size: 150%;
+}
+
+.sticky {
+
+    top: 0;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.footer {
+    background-color: #232325;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: -4px;
+}
+
+.firstpartfooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.footersocial {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+a {
+    color: #09953e;
+    font-size: 250%;
+}
+
+.b {
+    color: rgb(134, 134, 134);
+}
+
+.lowerfooter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerlogo {
+    width: 75px;
+    height: 75px;
+}
+
+.aboutus {
+    display: flex;
+    flex-direction: column;
+}
+
+b {
+    color: rgb(161, 161, 161);
+}
+
+.tittle {
+    color: white;
+}
+
+.bodyfullpart {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row;
+}
+.leftbody{
+    width: 40%;
+    height: 95%;
+}
+.leftimage{
+    width: 100%;
+}
+.rightbody{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.titlerightbody{
+    color: black;
+    font-size: 400%;
+}
+.mañanatardebuttons{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.mañanabutton{
+    font-size: 200%;
+    height: 60px;
+    width: 400px;
+    background-color: rgb(240, 236, 236);
+    border: 0px;
+    box-shadow: 0px 5px 5px #888;
+}
+.tardebutton{
+    font-size: 200%;
+    height: 60px;
+    width: 400px;
+    background-color: rgb(240, 236, 236);
+    border: 0px;
+    box-shadow: 0px 5px 5px #888;
+}
+.mañanabutton:hover{
+    background-color: #09953e;
+}
+.tardebutton:hover{
+    background-color: #09953e;
+}
+.fechahorabox{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.fechabox{
+    border: 1px black solid;
+    height: 35px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.horabox{
+    height: 35px;
+    width: 400px;
+    border: 1px black solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.calendarbutton{
+    border: 0px;
+    background-color: transparent;
+}
+.hourbutton{
+    border: 0px;
+    background-color: transparent;
+}
+.calendaricon{
+    height: 20px;
+    width: 20px;
+}
+.houricon{
+    height: 20px;
+    width: 20px;
+}
+.npersonasbox{
+    width: 830px;
+    height: 200px;
+    background-color: rgb(240, 236, 236);
+    font-size: 250%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 5px 5px #888;
+}
+.npersonasbuttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+.button1{
+    font-size: 100%;
+    width: 50px;
+    height: 55px;
+    border: 0px;
+    color: #09953e;
+    box-shadow: 0px 5px 5px #888;
+    background-color: white;
+}
+.button2{
+    font-size: 100%;
+    width: 50px;
+    height: 55px;
+    border: 0px;
+    color: #09953e;
+    box-shadow: 0px 5px 5px #888;
+    background-color: white;
+}
+.button3{
+    font-size: 100%;
+    width: 50px;
+    height: 55px;
+    border: 0px;
+    color: #09953e;
+    box-shadow: 0px 5px 5px #888;
+    background-color: white;
+}
+.button4{
+    font-size: 100%;
+    width: 50px;
+    height: 55px;
+    border: 0px;
+    color: #09953e;
+    box-shadow: 0px 5px 5px #888;
+    background-color: white;
+}
+.button5{
+    font-size: 100%;
+    width: 50px;
+    height: 55px;
+    border: 0px;
+    color: #09953e;
+    box-shadow: 0px 5px 5px #888;
+    background-color: white;
+}
+.button6{
+    font-size: 100%;
+    width: 50px;
+    height: 55px;
+    border: 0px;
+    color: #09953e;
+    box-shadow: 0px 5px 5px #888;
+    background-color: white;
+}
+.button7{
+    font-size: 100%;
+    width: 50px;
+    height: 55px;
+    border: 0px;
+    color: #09953e;
+    box-shadow: 0px 5px 5px #888;
+    background-color: white;
+}
+.button8{
+    font-size: 100%;
+    width: 50px;
+    height: 55px;
+    border: 0px;
+    color: #09953e;
+    box-shadow: 0px 5px 5px #888;
+    background-color: white;
+}
+.button1:hover{
+    background-color: #09953e;
+    color: white;
+}
+.button2:hover{
+    background-color: #09953e;
+    color: white;
+}
+.button3:hover{
+    background-color: #09953e;
+    color: white;
+}
+.button4:hover{
+    background-color: #09953e;
+    color: white;
+}
+.button5:hover{
+    background-color: #09953e;
+    color: white;
+}
+.button6:hover{
+    background-color: #09953e;
+    color: white;
+}
+.button7:hover{
+    background-color: #09953e;
+    color: white;
+}
+.button8:hover{
+    background-color: #09953e;
+    color: white;
+}
+.datospersonalestitles{
+    display: flex;
+    flex-direction: row;
+    font-size: 140%;
+    gap: 130px;
+}
+.nombretitle{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.correotitle{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.telefonotitle{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.nombrebox{
+    font-size: 80%;
+    height: 30px;
+    width: 180px;
+    border: 1px black solid;
+    color: gray;
+    padding: 3px;
+}
+.correobox{
+    font-size: 80%;
+    height: 30px;
+    width: 210px;
+    border: 1px black solid;
+    color: gray;
+    padding: 3px;
+}
+.telefonobox{
+    font-size: 80%;
+    height: 30px;
+    width: 180px;
+    border: 1px black solid;
+    color: gray;
+    padding: 3px;
+}
+.textpartbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.textpart{
+    font-size: 135%;
+}
+.checkmark{
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border: 0,5px black solid;
+}
+.completarreservatext{
+    width: 400px;
+    background-color: #09953e;
+    color: white;
+    font-size: 200%;
+    box-shadow: 0px 5px 5px #888;
+    text-align: center;
+    padding: 20px;
+}
