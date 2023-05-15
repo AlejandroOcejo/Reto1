@@ -1,4 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/gill-sans-nova-cond-ultra-bold');
+@import url('https://fonts.cdnfonts.com/css/gill-sans?styles=17577');
+@import url('https://fonts.cdnfonts.com/css/rubik?styles=19495');
 
 html,
 body,
@@ -167,6 +169,7 @@ b {
 .titlerightbody{
     color: black;
     font-size: 400%;
+    font-family: 'Gill Sans Nova Cond Ultra Bold';
 }
 .mañanatardebuttons{
     display: flex;
@@ -180,6 +183,8 @@ b {
     background-color: rgb(240, 236, 236);
     border: 0px;
     box-shadow: 0px 5px 5px #888;
+    font-family: 'Gill Sans Nova Cond Ultra Bold';
+    border-radius: 5px;
 }
 .tardebutton{
     font-size: 200%;
@@ -188,26 +193,36 @@ b {
     background-color: rgb(240, 236, 236);
     border: 0px;
     box-shadow: 0px 5px 5px #888;
+    font-family: 'Gill Sans Nova Cond Ultra Bold';
+    border-radius: 5px;
 }
 .mañanabutton:hover{
     background-color: #09953e;
+    color: white;
 }
 .tardebutton:hover{
     background-color: #09953e;
+    color: white;
 }
 .fechahorabox{
     display: flex;
     flex-direction: row;
     gap: 30px;
 }
-.fechabox{
-    border: 1px black solid;
-    height: 35px;
+#datebox{
+    border: 2px black solid;
     width: 400px;
-    display: flex;
-    flex-direction: row;
+    height: 35px;
+    font-family: 'Rubik', sans-serif;
     align-items: center;
-    justify-content: space-between;
+    padding: 10px;
+}
+#timebox{
+    border: 2px black solid;
+    width: 400px;
+    height: 35px;
+    font-family: 'Rubik', sans-serif;
+    align-items: center;
     padding: 10px;
 }
 .horabox{
@@ -217,8 +232,9 @@ b {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: right;
     padding: 10px;
+    font-family: 'Rubik', sans-serif;
 }
 .calendarbutton{
     border: 0px;
@@ -246,6 +262,8 @@ b {
     align-items: center;
     justify-content: space-around;
     box-shadow: 0px 5px 5px #888;
+    border-radius: 5px;
+    font-family: 'Gill Sans Nova Cond Ultra Bold';
 }
 .npersonasbuttons{
     display: flex;
@@ -261,6 +279,7 @@ b {
     color: #09953e;
     box-shadow: 0px 5px 5px #888;
     background-color: white;
+    font-family: 'Gill Sans', sans-serif;
 }
 .button2{
     font-size: 100%;
@@ -270,6 +289,7 @@ b {
     color: #09953e;
     box-shadow: 0px 5px 5px #888;
     background-color: white;
+    font-family: 'Gill Sans', sans-serif;
 }
 .button3{
     font-size: 100%;
@@ -279,6 +299,7 @@ b {
     color: #09953e;
     box-shadow: 0px 5px 5px #888;
     background-color: white;
+    font-family: 'Gill Sans', sans-serif;
 }
 .button4{
     font-size: 100%;
@@ -288,6 +309,7 @@ b {
     color: #09953e;
     box-shadow: 0px 5px 5px #888;
     background-color: white;
+    font-family: 'Gill Sans', sans-serif;
 }
 .button5{
     font-size: 100%;
@@ -297,6 +319,7 @@ b {
     color: #09953e;
     box-shadow: 0px 5px 5px #888;
     background-color: white;
+    font-family: 'Gill Sans', sans-serif;
 }
 .button6{
     font-size: 100%;
@@ -306,6 +329,7 @@ b {
     color: #09953e;
     box-shadow: 0px 5px 5px #888;
     background-color: white;
+    font-family: 'Gill Sans', sans-serif;
 }
 .button7{
     font-size: 100%;
@@ -315,6 +339,7 @@ b {
     color: #09953e;
     box-shadow: 0px 5px 5px #888;
     background-color: white;
+    font-family: 'Gill Sans', sans-serif;
 }
 .button8{
     font-size: 100%;
@@ -324,6 +349,7 @@ b {
     color: #09953e;
     box-shadow: 0px 5px 5px #888;
     background-color: white;
+    font-family: 'Gill Sans', sans-serif;
 }
 .button1:hover{
     background-color: #09953e;
@@ -367,22 +393,28 @@ b {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
 }
 .correotitle{
     display: flex;
     flex-direction: column;
     gap: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
 }
 .telefonotitle{
     display: flex;
     flex-direction: column;
     gap: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
 }
 .nombrebox{
     font-size: 80%;
     height: 30px;
     width: 180px;
-    border: 1px black solid;
+    border: 2px black solid;
     color: gray;
     padding: 3px;
 }
@@ -390,7 +422,7 @@ b {
     font-size: 80%;
     height: 30px;
     width: 210px;
-    border: 1px black solid;
+    border: 2px black solid;
     color: gray;
     padding: 3px;
 }
@@ -398,7 +430,7 @@ b {
     font-size: 80%;
     height: 30px;
     width: 180px;
-    border: 1px black solid;
+    border: 2px black solid;
     color: gray;
     padding: 3px;
 }
@@ -406,10 +438,15 @@ b {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
+}
+#checkbox{
+    height: 17px;
+    width: 17px;
 }
 .textpart{
-    font-size: 135%;
+    font-size: 120%;
+    font-family: 'Rubik', sans-serif;
 }
 .checkmark{
     height: 20px;
@@ -425,4 +462,6 @@ b {
     box-shadow: 0px 5px 5px #888;
     text-align: center;
     padding: 20px;
+    border-radius: 5px;
+    font-family: 'Gill Sans Nova Cond Ultra Bold';
 }
