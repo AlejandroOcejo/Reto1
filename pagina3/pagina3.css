@@ -1,0 +1,252 @@
+@import url('https://fonts.cdnfonts.com/css/gill-sans-nova-cond-ultra-bold');
+@import url('https://fonts.cdnfonts.com/css/gill-sans?styles=17577');
+@import url('https://fonts.cdnfonts.com/css/rubik?styles=19495');
+
+html,
+body,
+main {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #232325;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.logoSpace {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.headerRightPart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 40px;
+    gap: 20px;
+}
+
+.loginSpace {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.loginButton {
+    border-radius: 10px;
+    background-color: #09953e;
+    width: 100px;
+    height: 35px;
+    font-size: x-large;
+    color: white;
+    border: 10px black;
+
+}
+
+.registerButton {
+    color: white;
+    font-size: 120%;
+}
+
+.Moka {
+    font-family: 'Gill Sans Nova Cond Ultra Bold';
+    font-size: 250%;
+    color: white;
+    font-weight: 900;
+
+}
+
+.movingText {
+    color: white;
+    font-family: 'Gill Sans Nova Cond Ultra Bold';
+    font-size: 150%;
+}
+
+.sticky {
+
+    top: 0;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.footer {
+    background-color: #232325;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: -4px;
+}
+
+.firstpartfooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.footersocial {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+a {
+    color: #09953e;
+    font-size: 250%;
+}
+
+.b {
+    color: rgb(134, 134, 134);
+}
+
+.lowerfooter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerlogo {
+    width: 75px;
+    height: 75px;
+}
+
+.aboutus {
+    display: flex;
+    flex-direction: column;
+}
+
+b {
+    color: rgb(161, 161, 161);
+}
+
+.tittle {
+    color: white;
+}
+
+.bodyfirstpart {
+    width: 100%;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftbody {
+    width: 40%;
+    height: 95%;
+}
+
+.leftimage {
+    width: 100%;
+}
+
+.rightbody {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.deliveryimages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.textrightbody {
+    margin-top: 20px;
+    padding: 87px;
+    font-size: 170%;
+    line-height: 150%;
+    font-family: 'Rubik', sans-serif;
+}
+
+.titlerightbody {
+    color: #09953e;
+    font-size: 130%;
+    font-family: 'Gill Sans Nova Cond Ultra Bold';
+}
+
+.deliverysbuttons {
+    width: 480px;
+    height: 130px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    padding: 20px;
+    box-shadow: 0px 5px 5px #888;
+    color:black;
+}
+
+.deliveryuber {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.deliveryglovo {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.glovoimage {
+    width: 480px;
+    height: 300px;
+    box-shadow: 0px 5px 5px #888;
+}
+.uberimage {
+    width: 480px;
+    height: 300px;
+    box-shadow: 0px 5px 5px #888;
+}
+.buttondeliver {
+    height: 25px;
+    width: 100px;
+    box-shadow: 0px 2px 2px #888;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Gill Sans Nova Cond Ultra Bold';
+    color: white;
+    background-color: #09953e;
+    border: 0px;
+    margin-top: 10px;
+}
+.titlebuttons {
+    color:black;
+    font-size: 130%;
+    font-family: 'Gill Sans', sans-serif;
+}
+.textbuttons{
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
