@@ -146,7 +146,7 @@ b {
     color: white;
 }
 
-.bodyfirstpart {
+.bodyfullpart {
     width: 100%;
     margin-top: 130px;
     display: flex;
@@ -166,7 +166,7 @@ b {
     width: 60%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 100px;
 }
 
 .deliveryimages {
@@ -177,18 +177,12 @@ b {
     gap: 20px;
 }
 
-.textrightbody {
-    margin-top: 20px;
-    padding: 87px;
-    font-size: 170%;
-    line-height: 150%;
-    font-family: 'Rubik', sans-serif;
-}
-
 .titlerightbody {
     color: #09953e;
-    font-size: 130%;
+    font-size: 230%;
     font-family: 'Gill Sans Nova Cond Ultra Bold';
+    margin-top: 50px;
+    text-align: center;
 }
 
 .deliverysbuttons {
@@ -249,4 +243,52 @@ b {
 .textbuttons{
     color: black;
     font-family: 'Rubik', sans-serif;
+}
+.secondtitlerightbody{
+    color: black;
+    font-size: 200%;
+    text-align: left;
+    font-family: 'Gill Sans', sans-serif;
+    padding-left: 81px;
+}
+.ubicacionespart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    padding-left: 81px;
+}
+.firstubication{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 150%;
+    font-family: 'Gill Sans', sans-serif;
+    gap: 15px;
+}
+.secondubication{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 150%;
+    font-family: 'Gill Sans', sans-serif;
+    gap: 15px;
+}
+.thirdubication{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 150%;
+    font-family: 'Gill Sans', sans-serif;
+    gap: 15px;
+}
+.firstpartrightbody{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.secondpartrightbody{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
