@@ -32,6 +32,10 @@ main {
     flex-direction: row;
     gap: 20px;
 }
+.logo{
+    height: 100px;
+    width: 100px;
+}
 
 .headerRightPart {
     display: flex;
@@ -133,6 +137,11 @@ a {
     height: 75px;
 }
 
+.logosocial{
+    width: 50px;
+    height: 50px;
+}
+
 .aboutus {
     display: flex;
     flex-direction: column;
@@ -225,17 +234,7 @@ b {
     align-items: center;
     padding: 10px;
 }
-.horabox{
-    height: 35px;
-    width: 400px;
-    border: 1px black solid;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: right;
-    padding: 10px;
-    font-family: 'Rubik', sans-serif;
-}
+
 .calendarbutton{
     border: 0px;
     background-color: transparent;
@@ -271,7 +270,7 @@ b {
     align-items: center;
     gap: 40px;
 }
-.button1{
+.button{
     font-size: 100%;
     width: 50px;
     height: 55px;
@@ -281,108 +280,12 @@ b {
     background-color: white;
     font-family: 'Gill Sans', sans-serif;
 }
-.button2{
-    font-size: 100%;
-    width: 50px;
-    height: 55px;
-    border: 0px;
-    color: #09953e;
-    box-shadow: 0px 5px 5px #888;
-    background-color: white;
-    font-family: 'Gill Sans', sans-serif;
-}
-.button3{
-    font-size: 100%;
-    width: 50px;
-    height: 55px;
-    border: 0px;
-    color: #09953e;
-    box-shadow: 0px 5px 5px #888;
-    background-color: white;
-    font-family: 'Gill Sans', sans-serif;
-}
-.button4{
-    font-size: 100%;
-    width: 50px;
-    height: 55px;
-    border: 0px;
-    color: #09953e;
-    box-shadow: 0px 5px 5px #888;
-    background-color: white;
-    font-family: 'Gill Sans', sans-serif;
-}
-.button5{
-    font-size: 100%;
-    width: 50px;
-    height: 55px;
-    border: 0px;
-    color: #09953e;
-    box-shadow: 0px 5px 5px #888;
-    background-color: white;
-    font-family: 'Gill Sans', sans-serif;
-}
-.button6{
-    font-size: 100%;
-    width: 50px;
-    height: 55px;
-    border: 0px;
-    color: #09953e;
-    box-shadow: 0px 5px 5px #888;
-    background-color: white;
-    font-family: 'Gill Sans', sans-serif;
-}
-.button7{
-    font-size: 100%;
-    width: 50px;
-    height: 55px;
-    border: 0px;
-    color: #09953e;
-    box-shadow: 0px 5px 5px #888;
-    background-color: white;
-    font-family: 'Gill Sans', sans-serif;
-}
-.button8{
-    font-size: 100%;
-    width: 50px;
-    height: 55px;
-    border: 0px;
-    color: #09953e;
-    box-shadow: 0px 5px 5px #888;
-    background-color: white;
-    font-family: 'Gill Sans', sans-serif;
-}
-.button1:hover{
+
+.button:hover{
     background-color: #09953e;
     color: white;
 }
-.button2:hover{
-    background-color: #09953e;
-    color: white;
-}
-.button3:hover{
-    background-color: #09953e;
-    color: white;
-}
-.button4:hover{
-    background-color: #09953e;
-    color: white;
-}
-.button5:hover{
-    background-color: #09953e;
-    color: white;
-}
-.button6:hover{
-    background-color: #09953e;
-    color: white;
-}
-.button7:hover{
-    background-color: #09953e;
-    color: white;
-}
-.button8:hover{
-    background-color: #09953e;
-    color: white;
-}
+
 .datospersonalestitles{
     display: flex;
     flex-direction: row;
@@ -464,4 +367,229 @@ b {
     padding: 20px;
     border-radius: 5px;
     font-family: 'Gill Sans Nova Cond Ultra Bold';
+}
+@media only screen and (max-width: 600px){
+    .leftbody{
+        width: 0%;
+        height: 0%;
+    }
+    .rightbody{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .logo{
+        width: 70px;
+        height: 70px;
+    }
+    .Moka {
+        font-family: 'Gill Sans Nova Cond Ultra Bold';
+        font-size: 200%;
+        color: white;
+        font-weight: 900;
+    }
+    .movingText {
+        color: white;
+        font-family: 'Gill Sans Nova Cond Ultra Bold';
+        font-size: 0%;
+    }
+    .headerRightPart {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-right: 8px;
+        gap: 20px;
+    }
+    .titlerightbody{
+        color: black;
+        font-size: 230%;
+        font-family: 'Gill Sans Nova Cond Ultra Bold';
+        text-align: center;
+    }
+    .mañanatardebuttons{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+    .mañanabutton{
+        font-size: 160%;
+        height: 40px;
+        width: 180px;
+        background-color: rgb(240, 236, 236);
+        border: 0px;
+        box-shadow: 0px 5px 5px #888;
+        font-family: 'Gill Sans Nova Cond Ultra Bold';
+        border-radius: 5px;
+    }
+    .tardebutton{
+        font-size: 160%;
+        height: 40px;
+        width: 180px;
+        background-color: rgb(240, 236, 236);
+        border: 0px;
+        box-shadow: 0px 5px 5px #888;
+        font-family: 'Gill Sans Nova Cond Ultra Bold';
+        border-radius: 5px;
+    }
+    #datebox{
+        border: 2px black solid;
+        width: 250px;
+        height: 35px;
+        font-family: 'Rubik', sans-serif;
+        align-items: center;
+        padding: 10px;
+    }
+    #timebox{
+        border: 2px black solid;
+        width: 250px;
+        height: 35px;
+        font-family: 'Rubik', sans-serif;
+        align-items: center;
+        padding: 10px;
+    }
+    .fechahorabox{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .npersonasbox{
+        width: 520px;
+        height: 200px;
+        background-color: rgb(240, 236, 236);
+        font-size: 250%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        box-shadow: 0px 5px 5px #888;
+        border-radius: 5px;
+        font-family: 'Gill Sans Nova Cond Ultra Bold';
+    }
+    .npersonasbuttons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+    .button{
+        font-size: 90%;
+        width: 45px;
+        height: 50px;
+        border: 0px;
+        color: #09953e;
+        box-shadow: 0px 5px 5px #888;
+        background-color: white;
+        font-family: 'Gill Sans', sans-serif;
+    }
+    .datospersonalestitles{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .nombretitle{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-family: 'Rubik', sans-serif;
+        font-size: 75%;
+    }
+    .correotitle{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-family: 'Rubik', sans-serif;
+        font-size: 75%;
+    }
+    .telefonotitle{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-family: 'Rubik', sans-serif;
+        font-size: 75%;
+    }
+    .nombrebox{
+        font-size: 80%;
+        height: 30px;
+        width: 160px;
+        border: 2px black solid;
+        color: gray;
+        padding: 3px;
+    }
+    .correobox{
+        font-size: 80%;
+        height: 30px;
+        width: 160px;
+        border: 2px black solid;
+        color: gray;
+        padding: 3px;
+    }
+    .telefonobox{
+        font-size: 80%;
+        height: 30px;
+        width: 160px;
+        border: 2px black solid;
+        color: gray;
+        padding: 3px;
+    }
+    .textpart{
+        font-size: 100%;
+        font-family: 'Rubik', sans-serif;
+    }
+    .completarreservatext{
+        width: 400px;
+        background-color: #09953e;
+        color: white;
+        font-size: 200%;
+        box-shadow: 0px 5px 5px #888;
+        text-align: center;
+        border-radius: 5px;
+        font-family: 'Gill Sans Nova Cond Ultra Bold';
+    }
+    .footer {
+        width: 0px;
+        height: 0px;
+        background-color: white;
+    }
+    .firstpartfooter {
+        width: 0px;
+        height: 0px;
+        font-size: 0%;
+    }
+    .footersocial {
+        width: 0px;
+        height: 0px;
+        font-size: 0%;
+    }
+    a {
+        width: 0px;
+        height: 0px;
+        font-size: 0%;
+    }
+    .b {
+        width: 0px;
+        height: 0px;
+        font-size: 0%;
+    }
+    .lowerfooter {
+        width: 0px;
+        height: 0px;
+        font-size: 0%;
+    }
+    .footerlogo {
+        width: 0px;
+        height: 0px;
+        font-size: 0%;
+    }
+    .aboutus {
+        width: 0px;
+        height: 0px;
+        font-size: 0%;
+    }
+    .logosocial{
+        width: 0px;
+        height: 0px;
+    }
 }
