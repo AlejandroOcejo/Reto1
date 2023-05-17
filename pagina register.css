@@ -141,6 +141,21 @@ main{
     border: 0px;
     font-family: 'Gill Sans Nova Cond Ultra Bold';
 }
+.terminostext{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    gap: 10px;
+}
+#checkbox{
+    height: 15px;
+    width: 15px;
+}
+.textpart{
+    font-family: 'Rubik', sans-serif;
+    font-size: 95%;
+}
 .registrarsebutton:hover{
     background-color: #09953e;
     color: white;
