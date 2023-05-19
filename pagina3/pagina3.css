@@ -11,7 +11,6 @@ main {
     padding: 0;
 }
 
-
 .header {
     display: flex;
     flex-direction: row;
@@ -25,14 +24,16 @@ main {
     top: 0;
     left: 0;
 }
-
 .logoSpace {
     align-items: center;
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
-
+.logo{
+    width: 100px;
+    height: 100px;
+}
 .headerRightPart {
     display: flex;
     flex-direction: row;
@@ -40,14 +41,12 @@ main {
     padding-right: 40px;
     gap: 20px;
 }
-
 .loginSpace {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
 }
-
 .loginButton {
     border-radius: 10px;
     background-color: #09953e;
@@ -58,12 +57,10 @@ main {
     border: 10px black;
 
 }
-
 .registerButton {
     color: white;
     font-size: 120%;
 }
-
 .Moka {
     font-family: 'Gill Sans Nova Cond Ultra Bold';
     font-size: 250%;
@@ -71,23 +68,19 @@ main {
     font-weight: 900;
 
 }
-
 .movingText {
     color: white;
     font-family: 'Gill Sans Nova Cond Ultra Bold';
     font-size: 150%;
 }
-
 .sticky {
 
     top: 0;
     width: 100%;
 }
-
 * {
     box-sizing: border-box
 }
-
 .footer {
     background-color: #232325;
     display: flex;
@@ -97,7 +90,6 @@ main {
     padding: 20px;
     margin-top: -4px;
 }
-
 .firstpartfooter {
     display: flex;
     flex-direction: column;
@@ -105,78 +97,61 @@ main {
     align-items: center;
     gap: 30px;
 }
-
 .footersocial {
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
-
 a {
     color: #09953e;
     font-size: 250%;
 }
-
 .b {
     color: rgb(134, 134, 134);
 }
-
 .lowerfooter {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
-
 .footerlogo {
     width: 75px;
     height: 75px;
 }
-
+.logosocial{
+    width: 50px;
+    height: 50px;
+}
 .aboutus {
     display: flex;
     flex-direction: column;
 }
-
 b {
     color: rgb(161, 161, 161);
 }
-
 .tittle {
     color: white;
 }
-
 .bodyfullpart {
     width: 100%;
     margin-top: 130px;
     display: flex;
     flex-direction: row;
 }
-
 .leftbody {
     width: 40%;
     height: 95%;
 }
-
 .leftimage {
     width: 100%;
 }
-
 .rightbody {
     width: 60%;
     display: flex;
     flex-direction: column;
     gap: 100px;
 }
-
-.deliveryimages {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-
 .titlerightbody {
     color: #09953e;
     font-size: 230%;
@@ -184,7 +159,13 @@ b {
     margin-top: 50px;
     text-align: center;
 }
-
+.deliveryimages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
 .deliverysbuttons {
     width: 480px;
     height: 130px;
@@ -197,7 +178,6 @@ b {
     box-shadow: 0px 5px 5px #888;
     color:black;
 }
-
 .deliveryuber {
     padding: 0;
     margin: 0;
@@ -205,14 +185,12 @@ b {
     flex-direction: column;
 
 }
-
 .deliveryglovo {
     padding: 0;
     margin: 0;
     display: flex;
     flex-direction: column;
 }
-
 .glovoimage {
     width: 480px;
     height: 300px;
@@ -291,4 +269,188 @@ b {
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+@media only screen and (max-width: 600px){
+    .leftbody{
+        width: 0%;
+        height: 0%;
+    }
+    .rightbody {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
+    }
+    .Moka {
+        font-family: 'Gill Sans Nova Cond Ultra Bold';
+        font-size: 170%;
+        color: white;
+        font-weight: 900;
+    }
+    .movingText {
+        color: white;
+        font-family: 'Gill Sans Nova Cond Ultra Bold';
+        font-size: 0%;
+    }
+    .headerRightPart {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-right: 8px;
+        gap: 20px;
+    }
+    .titlerightbody {
+        color: #09953e;
+        font-size: 200%;
+        font-family: 'Gill Sans Nova Cond Ultra Bold';
+        text-align: center;
+        margin-top: 10px;
+    }
+    .deliveryimages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .deliverysbuttons {
+        width: 280px;
+        height: 100px;
+        background-color: #F2F2F2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: left;
+        padding: 15px;
+        box-shadow: 0px 5px 5px #888;
+        color:black;
+    }
+    .glovoimage {
+        width: 280px;
+        height: 200px;
+        box-shadow: 0px 5px 5px #888;
+    }
+    .uberimage {
+        width: 280px;
+        height: 200px;
+        box-shadow: 0px 5px 5px #888;
+    }
+    .buttondeliver {
+        font-size: 80%;
+        width: 100px;
+        box-shadow: 0px 2px 2px #888;
+        text-align: center;
+        border-radius: 5px;
+        font-family: 'Gill Sans Nova Cond Ultra Bold';
+        color: white;
+        background-color: #09953e;
+        border: 0px;
+        margin-top: 10px;
+    }
+    .titlebuttons {
+        color:black;
+        font-size: 110%;
+        font-family: 'Gill Sans', sans-serif;
+    }
+    .textbuttons{
+        font-size: 80%;
+        color: black;
+        font-family: 'Rubik', sans-serif;
+    }
+    .secondtitlerightbody{
+        color: black;
+        font-size: 160%;
+        text-align: center;
+        font-family: 'Gill Sans', sans-serif;
+        padding-left: 0px;
+    }
+    .ubicacionespart{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding-left: 0px;
+    }
+    .firstubication{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        font-size: 130%;
+        font-family: 'Gill Sans', sans-serif;
+        gap: 15px;
+    }
+    .secondubication{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        font-size: 130%;
+        font-family: 'Gill Sans', sans-serif;
+        gap: 15px;
+    }
+    .thirdubication{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        font-size: 130%;
+        font-family: 'Gill Sans', sans-serif;
+        gap: 15px;
+    }
+    .firstpartrightbody{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .secondpartrightbody{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer {
+        width: 0px;
+        height: 0px;
+        background-color: white;
+    }
+    .firstpartfooter {
+        width: 0px;
+        height: 0px;
+        font-size: 0%;
+    }
+    .footersocial {
+        width: 0px;
+        height: 0px;
+        font-size: 0%;
+    }
+    a {
+        width: 0px;
+        height: 0px;
+        font-size: 0%;
+    }
+    .b {
+        width: 0px;
+        height: 0px;
+        font-size: 0%;
+    }
+    .lowerfooter {
+        width: 0px;
+        height: 0px;
+        font-size: 0%;
+    }
+    .footerlogo {
+        width: 0px;
+        height: 0px;
+        font-size: 0%;
+    }
+    .aboutus {
+        width: 0px;
+        height: 0px;
+        font-size: 0%;
+    }
+    .logosocial{
+        width: 0px;
+        height: 0px;
+    }
 }
