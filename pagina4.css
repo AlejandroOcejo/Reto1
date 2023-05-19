@@ -368,7 +368,7 @@ b {
     border-radius: 5px;
     font-family: 'Gill Sans Nova Cond Ultra Bold';
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 1700px){
     .leftbody{
         width: 0%;
         height: 0%;
@@ -380,14 +380,29 @@ b {
         justify-content: center;
         align-items: center;
         gap: 40px;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .leftbody{
+        width: 0%;
+        height: 0%;
+    }
+    .rightbody{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
     }
     .logo{
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
     }
     .Moka {
         font-family: 'Gill Sans Nova Cond Ultra Bold';
-        font-size: 200%;
+        font-size: 170%;
         color: white;
         font-weight: 900;
     }
@@ -417,7 +432,7 @@ b {
     .mañanabutton{
         font-size: 160%;
         height: 40px;
-        width: 180px;
+        width: 170px;
         background-color: rgb(240, 236, 236);
         border: 0px;
         box-shadow: 0px 5px 5px #888;
@@ -427,7 +442,7 @@ b {
     .tardebutton{
         font-size: 160%;
         height: 40px;
-        width: 180px;
+        width: 170px;
         background-color: rgb(240, 236, 236);
         border: 0px;
         box-shadow: 0px 5px 5px #888;
@@ -436,16 +451,16 @@ b {
     }
     #datebox{
         border: 2px black solid;
-        width: 250px;
-        height: 35px;
+        width: 170px;
+        height: 30px;
         font-family: 'Rubik', sans-serif;
         align-items: center;
         padding: 10px;
     }
     #timebox{
         border: 2px black solid;
-        width: 250px;
-        height: 35px;
+        width: 170px;
+        height: 30px;
         font-family: 'Rubik', sans-serif;
         align-items: center;
         padding: 10px;
@@ -453,13 +468,13 @@ b {
     .fechahorabox{
         display: flex;
         flex-direction: row;
-        gap: 20px;
+        gap: 15px;
     }
     .npersonasbox{
-        width: 520px;
-        height: 200px;
+        width: 350px;
+        height: 130px;
         background-color: rgb(240, 236, 236);
-        font-size: 250%;
+        font-size: 180%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -472,12 +487,12 @@ b {
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 20px;
+        gap: 13px;
     }
     .button{
-        font-size: 90%;
-        width: 45px;
-        height: 50px;
+        font-size: 65%;
+        width: 30px;
+        height: 35px;
         border: 0px;
         color: #09953e;
         box-shadow: 0px 5px 5px #888;
@@ -487,62 +502,59 @@ b {
     .datospersonalestitles{
         display: flex;
         flex-direction: row;
-        gap: 20px;
+        gap: 15px;
     }
     .nombretitle{
         display: flex;
         flex-direction: column;
         gap: 10px;
         font-family: 'Rubik', sans-serif;
-        font-size: 75%;
+        font-size: 55%;
     }
     .correotitle{
         display: flex;
         flex-direction: column;
         gap: 10px;
         font-family: 'Rubik', sans-serif;
-        font-size: 75%;
+        font-size: 55%;
     }
     .telefonotitle{
         display: flex;
         flex-direction: column;
         gap: 10px;
         font-family: 'Rubik', sans-serif;
-        font-size: 75%;
+        font-size: 55%;
     }
     .nombrebox{
-        font-size: 80%;
-        height: 30px;
-        width: 160px;
+        height: 25px;
+        width: 110px;
         border: 2px black solid;
         color: gray;
         padding: 3px;
     }
     .correobox{
-        font-size: 80%;
-        height: 30px;
-        width: 160px;
+        height: 25px;
+        width: 110px;
         border: 2px black solid;
         color: gray;
         padding: 3px;
     }
     .telefonobox{
-        font-size: 80%;
-        height: 30px;
-        width: 160px;
+        height: 25px;
+        width: 110px;
         border: 2px black solid;
         color: gray;
         padding: 3px;
     }
     .textpart{
-        font-size: 100%;
+        font-size: 90%;
         font-family: 'Rubik', sans-serif;
     }
     .completarreservatext{
-        width: 400px;
+        width: 300px;
         background-color: #09953e;
         color: white;
-        font-size: 200%;
+        font-size: 150%;
         box-shadow: 0px 5px 5px #888;
         text-align: center;
         border-radius: 5px;
