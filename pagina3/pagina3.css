@@ -279,13 +279,38 @@ b {
     flex-direction: column;
     gap: 30px;
 }
+@media only screen and (max-width: 1700px){
+    .leftbody{
+        width: 0%;
+        height: 0%;
+    }
+    .rightbody {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+    }
+    .ubicacionespart{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+    .secondtitlerightbody{
+        color: black;
+        font-size: 160%;
+        text-align: center;
+        font-family: 'Gill Sans', sans-serif;
+    }
+}
 @media only screen and (max-width: 600px){
     .leftbody{
         width: 0%;
         height: 0%;
     }
     .rightbody {
-        width: 318px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         gap: 70px;
@@ -297,7 +322,7 @@ b {
         justify-content: space-between;
         padding: 15px;
         align-items: center;
-        width: 318px;
+        width: 100%;
         position: fixed;
         z-index: 1;
         top: 0;
