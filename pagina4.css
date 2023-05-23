@@ -81,6 +81,14 @@ main {
     font-family: 'Gill Sans Nova Cond Ultra Bold';
     font-size: 150%;
 }
+.lupa{
+    width: 50px;
+    height:50px;
+}
+.lupa img{
+    width: 50px;
+    height:50px;
+}
 
 .sticky {
 
@@ -396,15 +404,27 @@ b {
         align-items: center;
         gap: 30px;
     }
+    .header {
+        display: flex;
+        flex-direction: row;
+        background-color: #232325;
+        justify-content: space-between;
+        padding: 15px;
+        align-items: center;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
     .logo{
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
     }
     .Moka {
         font-family: 'Gill Sans Nova Cond Ultra Bold';
-        font-size: 170%;
+        font-size: 140%;
         color: white;
-        font-weight: 900;
     }
     .movingText {
         color: white;
@@ -415,8 +435,32 @@ b {
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding-right: 8px;
-        gap: 20px;
+        padding-right: 5px;
+        gap: 10px;
+    }
+    .loginSpace {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .loginButton {
+        border-radius: 10px;
+        background-color: #09953e;
+        width: 60px;
+        height: 30px;
+        font-size: 80%;
+        color: white;
+        border: 10px black;
+    }
+    .registerButton {
+        color: white;
+        font-size: 80%;
+    }
+    .lupa img{
+        width: 40px;
+        height: 40px;
+        align-content: center;
     }
     .titlerightbody{
         color: black;
