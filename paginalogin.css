@@ -113,3 +113,83 @@ main{
     background-color: #09953e;
     color: white;
 }
+@media screen and (max-width: 600px){
+    .centerpart{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .firstpart{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .logoimage{
+        height: 40px;
+        width: 40px;
+    }
+    .singintitle{
+        font-size: 140%;
+        font-family: 'Gill Sans Nova Cond Ultra Bold';
+    }
+    .secondpart{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .correotitle{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        gap: 5px;
+        font-size: 75%;
+        font-family: 'Gill Sans', sans-serif;
+    }
+    .correotext{
+        height: 20px;
+        width: 250px;
+        border: 1px black solid;
+        border-radius: 5px;
+    }
+    .contraseñatitle{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        gap: 5px;
+        font-size: 75%;
+        font-family: 'Gill Sans', sans-serif;
+    }
+    .contraseñatext{
+        height: 20px;
+        width: 250px;
+        border: 1px black solid;
+        border-radius: 5px;
+    }
+    .registrarsebutton{
+        height: 40px;
+        width: 200px;
+        background-color: rgb(240, 235, 235);
+        color: black;
+        font-size: 130%;
+        box-shadow: 0px 3px 3px #888;
+        text-align: center;
+        border-radius: 5px;
+        border: 0px;
+        font-family: 'Gill Sans Nova Cond Ultra Bold';
+    }
+    .terminostext{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        gap: 5px;
+    }
+    #checkbox{
+        height: 15px;
+        width: 15px;
+    }
+    .textpart{
+        font-family: 'Rubik', sans-serif;
+        font-size: 80%;
+    }
+}
