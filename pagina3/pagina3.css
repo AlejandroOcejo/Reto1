@@ -90,58 +90,101 @@ main {
 * {
     box-sizing: border-box
 }
-.footer {
-    background-color: #232325;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    margin-top: -4px;
-}
-.firstpartfooter {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
-}
-.footersocial {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-}
-a {
-    color: #09953e;
-    font-size: 250%;
-}
-.b {
-    color: rgb(134, 134, 134);
-}
-.lowerfooter {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-.footerlogo {
-    width: 75px;
-    height: 75px;
-}
-.logosocial{
-    width: 50px;
-    height: 50px;
-}
-.aboutus {
-    display: flex;
-    flex-direction: column;
-}
-b {
-    color: rgb(161, 161, 161);
-}
 .tittle {
     color: white;
 }
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: -4px;
+}
+.linepartfooter {
+    display: flex;
+    flex-direction: row;
+}
+.greenline{
+    width: 25%;
+    height: 25px;
+    background-color: #0faf4c;
+}
+.blackline{
+    width: 75%;
+    height: 25px;
+    background-color: #232325;
+}
+.fullpartfooter{
+    display: flex;
+    flex-direction: row;
+    gap: 450px;
+    padding: 40px;
+    background-color: #232325;
+}
+.firstpartfooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-left: 50px;
+}
+.firstpartfooter1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.titlefooter{
+    font-size: 270%;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans Nova Cond Ultra Bold';
+}
+.logofooter {
+    width: 90px;
+    height: 90px;
+}
+.iconosfooter{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.iconossocial {
+    width: 45px;
+    height: 45px;
+}
+.secondpartfooter{
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    margin-top: 7px;
+}
+.secondpartfooter1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.secondpartfooter2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.secondtitlefooter{
+    font-size: 220%;
+    color: #09953e;
+    font-family: 'Gill Sans', sans-serif;
+}
+.secondtextfooter{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.textfooter{
+    font-size: 120%;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
 .bodyfullpart {
     width: 100%;
     margin-top: 130px;
@@ -304,7 +347,140 @@ b {
         font-family: 'Gill Sans', sans-serif;
     }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 1325px){
+    .greenline{
+        width: 25%;
+        height: 20px;
+        background-color: #0faf4c;
+    }
+    .blackline{
+        width: 75%;
+        height: 20px;
+        background-color: #232325;
+    }
+    .fullpartfooter{
+        display: flex;
+        flex-direction: row;
+        gap: 250px;
+        padding: 20px;
+        background-color: #232325;
+    }
+    .firstpartfooter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin-left: 30px;
+    }
+    .secondpartfooter{
+        display: flex;
+        flex-direction: row;
+        gap: 150px;
+        margin-top: 7px;
+    }
+}
+@media only screen and (max-width: 1305px){
+    .fullpartfooter{
+        display: flex;
+        flex-direction: row;
+        gap: 250px;
+        padding: 20px;
+        background-color: #232325;
+    }
+}
+@media only screen and (max-width: 1532px){
+    .footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: -4px;
+    }
+    .linepartfooter {
+        display: flex;
+        flex-direction: row;
+    }
+    .greenline{
+        width: 25%;
+        height: 20px;
+        background-color: #0faf4c;
+    }
+    .blackline{
+        width: 75%;
+        height: 20px;
+        background-color: #232325;
+    }
+    .fullpartfooter{
+        display: flex;
+        flex-direction: row;
+        gap: 150px;
+        padding: 20px;
+        background-color: #232325;
+        justify-content: center;
+    }
+    .firstpartfooter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin-left: 0px;
+    }
+    .firstpartfooter1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .titlefooter{
+        font-size: 220%;
+        color: white;
+        text-align: center;
+        font-family: 'Gill Sans Nova Cond Ultra Bold';
+    }
+    .logofooter {
+        width: 75px;
+        height: 75px;
+    }
+    .iconosfooter{
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+    }
+    .iconossocial {
+        width: 35px;
+        height: 35px;
+    }
+    .secondpartfooter{
+        display: flex;
+        flex-direction: row;
+        gap: 150px;
+        margin-top: 7px;
+    }
+    .secondpartfooter1{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .secondpartfooter2{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .secondtitlefooter{
+        font-size: 200%;
+        color: #09953e;
+        font-family: 'Gill Sans', sans-serif;
+    }
+    .secondtextfooter{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .textfooter{
+        font-size: 100%;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+    }
+}
+@media only screen and (max-width: 1066px){
     .leftbody{
         width: 0%;
         height: 0%;
@@ -480,47 +656,93 @@ b {
         gap: 30px;
     }
     .footer {
-        width: 0px;
-        height: 0px;
-        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-top: -4px;
     }
-    .firstpartfooter {
-        width: 0px;
-        height: 0px;
-        font-size: 0%;
+    .linepartfooter {
+        display: flex;
+        flex-direction: row;
     }
-    .footersocial {
-        width: 0px;
-        height: 0px;
-        font-size: 0%;
+    .greenline{
+        width: 25%;
+        height: 10px;
+        background-color: #0faf4c;
     }
-    a {
-        width: 0px;
-        height: 0px;
-        font-size: 0%;
+    .blackline{
+        width: 75%;
+        height: 10px;
+        background-color: #232325;
     }
-    .b {
-        width: 0px;
-        height: 0px;
-        font-size: 0%;
+    .fullpartfooter{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+        padding: 10px;
+        background-color: #232325;
     }
-    .lowerfooter {
-        width: 0px;
-        height: 0px;
-        font-size: 0%;
+    .firstpartfooter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-left: 0px;
     }
-    .footerlogo {
-        width: 0px;
-        height: 0px;
-        font-size: 0%;
+    .firstpartfooter1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
     }
-    .aboutus {
-        width: 0px;
-        height: 0px;
-        font-size: 0%;
+    .titlefooter{
+        font-size: 95%;
+        color: white;
+        text-align: center;
+        font-family: 'Gill Sans Nova Cond Ultra Bold';
     }
-    .logosocial{
-        width: 0px;
-        height: 0px;
+    .logofooter {
+        width: 35px;
+        height: 35px;
+    }
+    .iconosfooter{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .iconossocial {
+        width: 15px;
+        height: 15px;
+    }
+    .secondpartfooter{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin-top: 2px;
+    }
+    .secondpartfooter1{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .secondpartfooter2{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .secondtitlefooter{
+        font-size: 70%;
+        color: #09953e;
+        font-family: 'Gill Sans', sans-serif;
+    }
+    .secondtextfooter{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .textfooter{
+        font-size: 60%;
+        color: white;
+        font-family: 'Rubik', sans-serif;
     }
 }
