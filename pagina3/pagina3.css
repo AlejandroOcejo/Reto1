@@ -59,11 +59,13 @@ a{
     font-size: x-large;
     color: white;
     border: 10px black;
-
+    font-family: 'Gill Sans Nova Cond Ultra Bold';
+    text-align: center;
 }
 .registerButton {
     color: white;
     font-size: 120%;
+    font-family: 'Rubik', sans-serif;
 }
 .Moka {
     font-family: 'Gill Sans Nova Cond Ultra Bold';
@@ -534,6 +536,7 @@ a{
         flex-direction: column;
         align-items: center;
         gap: 10px;
+        
     }
     .loginButton {
         border-radius: 10px;
@@ -543,10 +546,13 @@ a{
         font-size: 80%;
         color: white;
         border: 10px black;
+        font-family: 'Gill Sans Nova Cond Ultra Bold';
+        text-align: center;
     }
     .registerButton {
         color: white;
         font-size: 80%;
+        font-family: 'Rubik', sans-serif;
     }
     .lupa img{
         width: 40px;
