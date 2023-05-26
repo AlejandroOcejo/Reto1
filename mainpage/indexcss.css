@@ -68,7 +68,7 @@ a{
     color: white;
     border: 10px black;
     font-family: 'Gill Sans Nova Cond Ultra Bold';
-
+    text-align: center;
 }
 
 .registerButton {
@@ -654,10 +654,13 @@ a{
         font-size: 80%;
         color: white;
         border: 10px black;
+        font-family: 'Gill Sans Nova Cond Ultra Bold';
+        text-align: center;
     }
     .registerButton {
         color: white;
         font-size: 80%;
+        font-family: 'Rubik', sans-serif;
     }
     .lupa img{
         width: 40px;
