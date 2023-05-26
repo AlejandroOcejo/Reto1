@@ -176,7 +176,7 @@ a{
 .secondtitlefooter{
     font-size: 220%;
     color: #09953e;
-    font-family: 'Gill Sans', sans-serif;
+    font-family: 'Gill Sans Nova Cond Ultra Bold';
 }
 .secondtextfooter{
     display: flex;
@@ -536,7 +536,6 @@ a{
         flex-direction: column;
         align-items: center;
         gap: 10px;
-        
     }
     .loginButton {
         border-radius: 10px;
@@ -547,7 +546,7 @@ a{
         color: white;
         border: 10px black;
         font-family: 'Gill Sans Nova Cond Ultra Bold';
-        text-align: center;
+        align-items: center;
     }
     .registerButton {
         color: white;
@@ -743,7 +742,7 @@ a{
     .secondtitlefooter{
         font-size: 70%;
         color: #09953e;
-        font-family: 'Gill Sans', sans-serif;
+        font-family: 'Gill Sans Nova Cond Ultra Bold';
     }
     .secondtextfooter{
         display: flex;
