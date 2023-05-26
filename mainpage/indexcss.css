@@ -64,12 +64,14 @@ body{
     font-size: x-large;
     color: white;
     border: 10px black;
+    font-family: 'Gill Sans Nova Cond Ultra Bold';
 
 }
 
 .registerButton {
     color: white;
     font-size: 120%;
+    font-family: 'Rubik', sans-serif;
 }
 
 .Moka {
@@ -355,26 +357,26 @@ body{
     font-family: 'Gill Sans Nova Cond Ultra Bold';
 }
 
-.delreserveoption:hover .reserveoption:hover {
-    transform: translateX(45%);
+
+@media(min-width: 1066px){
+    .delreserveoption:hover .reserveoption:hover {
+        transform: translateX(45%);
+    }
+    .delreserveoption:hover .deliveryoption:hover {
+        transform: translateX(-55%);
+    }
+    .delreserveoption:hover .reserveoption:not(:hover) {
+        transform: scale(0);
+    }
+    .delreserveoption:hover .deliveryoption:not(:hover) {
+        transform: scale(0);
+    }
+    .delreserveoption:hover .reserveoption,
+    .delreserveoption:hover .deliveryoption {
+        transition: transform 0.3s ease-in-out;
+    }
 }
 
-.delreserveoption:hover .deliveryoption:hover {
-    transform: translateX(-55%);
-}
-
-.delreserveoption:hover .reserveoption:not(:hover) {
-    transform: scale(0);
-}
-
-.delreserveoption:hover .deliveryoption:not(:hover) {
-    transform: scale(0);
-}
-
-.delreserveoption:hover .reserveoption,
-.delreserveoption:hover .deliveryoption {
-    transition: transform 0.3s ease-in-out;
-}
 .tittle {
     color: white;
 }
@@ -455,7 +457,7 @@ body{
 .secondtitlefooter{
     font-size: 220%;
     color: #09953e;
-    font-family: 'Gill Sans', sans-serif;
+    font-family: 'Gill Sans Nova Cond Ultra Bold';
 }
 .secondtextfooter{
     display: flex;
@@ -587,7 +589,7 @@ body{
     .secondtitlefooter{
         font-size: 200%;
         color: #09953e;
-        font-family: 'Gill Sans', sans-serif;
+        font-family: 'Gill Sans Nova Cond Ultra Bold';
     }
     .secondtextfooter{
         display: flex;
@@ -659,8 +661,6 @@ body{
         height: 40px;
         align-content: center;
     }
-
-
     .slideshow-container {
         margin-top: 85px;
         z-index: 0;
@@ -677,21 +677,18 @@ body{
         flex-direction: column;
         align-items: center;
     }
-    
     .textimagenbody1div {
         color: white;
         font-size: 70%;
         text-align: center;
         font-family: 'Gill Sans Nova Cond Ultra Bold';
     }
-    
     .text2imagenbody1div {
         color: #09953e;
         font-size: 100%;
         text-align: center;
         font-family: 'Gill Sans Nova Cond Ultra Bold';
     }
-    
     .buttonimagenbody1 {
         background-color: white;
         color: #09953e;
@@ -702,7 +699,6 @@ body{
         font-size: 60%;
         border: 0px;
     }
-    
     .textimagenbody2 {
         position: absolute;
         margin-top: 11%;
@@ -711,21 +707,18 @@ body{
         flex-direction: column;
         align-items: center;
     }
-    
     .textimagenbody2div {
         color: #09953e;
         font-size: 70%;
         text-align: center;
         font-family: 'Gill Sans Nova Cond Ultra Bold';
     }
-    
     .text2imagenbody2div {
         color: white;
         font-size: 100%;
         text-align: center;
         font-family: 'Gill Sans Nova Cond Ultra Bold';
     }
-    
     .buttonimagenbody2 {
         background-color: #09953e;
         color: white;
@@ -736,7 +729,6 @@ body{
         font-size: 60%;
         border: 0px;
     }
-    
     .textimagenbody3 {
         position: absolute;
         margin-top: 30%;
@@ -745,21 +737,18 @@ body{
         flex-direction: column;
         align-items: center;
     }
-    
     .textimagenbody3div {
         color: #09953e;
         font-size: 70%;
         text-align: center;
         font-family: 'Gill Sans Nova Cond Ultra Bold';
     }
-    
     .text2imagenbody3div {
         color: white;
         font-size: 100%;
         text-align: center;
         font-family: 'Gill Sans Nova Cond Ultra Bold';
     }
-    
     .buttonimagenbody3 {
         background-color: #09953e;
         color: white;
@@ -770,7 +759,6 @@ body{
         font-size: 60%;
         border: 0px;
     }
-    
     .bodymiddlepart {
         width: 100%;
         background-color: rgb(0, 0, 0);
@@ -792,26 +780,22 @@ body{
         flex-direction: column;
         align-items: center;
     }
-    
     .rightside {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
     .leftsidetext {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
     .leftsidemaintext {
         color: #09953e;
         font-size: 300%;
         margin-top: 70px;
         font-family: 'Gill Sans Nova Cond Ultra Bold';
     }
-    
     .leftsidebodytext {
         color: white;
         margin-top: 40px;
@@ -819,26 +803,22 @@ body{
         text-align: center;
         font-family: 'Rubik', sans-serif;
     }
-    
     .leftbar {
         font-size: 500%;
         color: white;
         margin-top: 50px;
     }
-    
     .rightsidetext {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
     .rightsidemaintext {
         color: #09953e;
         font-size: 300%;
         margin-top: 80px;
         font-family: 'Gill Sans Nova Cond Ultra Bold';
     }
-    
     .rightsidebodytext {
         color: white;
         margin-top: 60px;
@@ -846,21 +826,17 @@ body{
         text-align: center;
         font-family: 'Rubik', sans-serif;
     }
-    
     .rightbar {
         font-size: 0%;
         color: white;
         margin-top: 50px;
     }
-    
     .imgbodyrightside {
         margin-top: 70px;
     }
-    
     .bodybottompart {
         background-color: black;
     }
-    
     .delreserveoption {
         display: flex;
         flex-direction: column;
@@ -868,7 +844,6 @@ body{
         align-items: center;
         gap: 50px;
     }
-    
     .reserveoption {
         display: flex;
         flex-direction: column;
@@ -876,13 +851,11 @@ body{
         transition: transform .2s;
         flex-basis: 50%;
     }
-    
     .reservetext {
         color: white;
         font-size: 250%;
         font-family: 'Gill Sans Nova Cond Ultra Bold';
     }
-    
     .deliveryoption {
         display: flex;
         flex-direction: column;
@@ -890,7 +863,6 @@ body{
         transition: transform .2s;
         flex-basis: 50%;
     }
-    
     .deliverytext {
         color: white;
         font-size: 250%;
@@ -904,9 +876,6 @@ body{
         height: 300px;
         width: 300px;
     }
-
-
-
     .footer {
         display: flex;
         flex-direction: column;
@@ -985,7 +954,7 @@ body{
     .secondtitlefooter{
         font-size: 70%;
         color: #09953e;
-        font-family: 'Gill Sans', sans-serif;
+        font-family: 'Gill Sans Nova Cond Ultra Bold';
     }
     .secondtextfooter{
         display: flex;
