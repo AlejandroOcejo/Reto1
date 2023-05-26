@@ -63,12 +63,14 @@ a{
     font-size: x-large;
     color: white;
     border: 10px black;
-
+    font-family: 'Gill Sans Nova Cond Ultra Bold';
+    text-align: center;
 }
 
 .registerButton {
     color: white;
     font-size: 120%;
+    font-family: 'Rubik', sans-serif;
 }
 
 .Moka {
@@ -618,10 +620,13 @@ a{
         font-size: 80%;
         color: white;
         border: 10px black;
+        font-family: 'Gill Sans Nova Cond Ultra Bold';
+        text-align: center;
     }
     .registerButton {
         color: white;
         font-size: 80%;
+        font-family: 'Rubik', sans-serif;
     }
     .lupa img{
         width: 40px;
